@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+    /* Add your custom styles here */
+    .navbar-brand img {
+      max-height: 40px;
+    }
+
+    .navbar-nav .nav-link {
+      padding: 0.5rem 1rem;
+    }
+
+    .navbar-toggler-icon {
+      color: #fff;
+    }
+
+    /* Background color and text color */
+    .bg-navbar {
+      background-color: #333;
+    }
+
+    .text-navbar {
+      color: #fff;
+    }
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* First Section */
+.first-section {
+background-color: #2f0b5f;
+padding: 20px;
+text-align: center;
+}
+.product-images {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.product-image {
+width: 30%;
+margin: 10px;
+box-sizing: border-box;
+}
+.button-row {
+margin-top: 20px;
+}
+/* Common styling for button */
+.button {
+padding: 10px 20px;
+font-size: 16px;
+background-color: #58ef1c;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+/* Second Section */
+.second-section {
+display: flex;
+justify-content: space-around;
+padding: 10px;
+box-sizing: border-box;
+}
+.product-card {
+height: 10px;
+width: 20px;
+padding: 20px;
+border: 1px solid #430a55;
+margin: 10px;
+box-sizing: border-box;
+}
+/* Third Section */
+.third-section {
+background-color: #000000de;
+padding: 20px;
+text-align: center;
+color: #fff;
+}
+.newsletter-row {
+display: flex;
+justify-content: space-around;
+}
+.newsletter-column {
+width: 60%;
+}
+.search-column {
+width: 50%;
+}
+.button-column {
+width: 40%;
+}
+/* Fourth Section */
+.fourth-section {
+text-align: center;
+padding: 40px;
+}
+.fourth-section-columns {
+display: flex;
+}
+.first-column {
+width: 35%;
+}
+.second-column {
+width: 60%;
+}
+.product-card {
+width: 200px;
+height: 300px;
+border: 1px solid #646927;
+margin: 20px;
+}
+.product-cards {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+        <h3>Sanvi Collections</h3>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Traditional">Traditional</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Casual">Casual</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Footwear">Footwear</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#electronics">Electronics</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!-- First Section -->
+
+<marquee behavior="alternate" direction="left" scrollamount="3" scrolldelay="100" loop="-1">
+    <em><h2>New Arrivals!!</h2></em>
+<!-- Product Images -->
+<div class="product-images">
+<div class="product-image">
+<img src="D:\Projects\ecommerce\E-Commerce-website\images\iPhone11 pro.jpeg" alt="Product 1">
+</div>
+<div class="product-image">
+<img src="D:\Projects\ecommerce\E-Commerce-website\images\onePiece dress.jpeg" alt="Product 2">
+</div>
+<div class="product-image">
+<img src="D:\Projects\ecommerce\E-Commerce-website\images\onplue11 pro.jpeg" alt="Product 3" style="height: 85%;">
+</div>
+</div>
+</div>
+</marquee>
+<!-- Button Row
+<div class="button-row">
+<button class="button">Your Button</button>
+</div> -->
+
+<!-- Second Section -->
+<section id="Traditional">
+<h1 style="text-align: center;">Traditional Wear</h1>
+<div class="second-section">  
+<div class="product-card">
+<img src="D:\Projects\ecommerce\E-Commerce-website\images\Traditional Lehenga.jpeg" alt="product 
+1" style="height: 80%;">
+<p class="product-name">
+<a href="#">Traditional Lehenga</a>
+</p>
+<p class="product-price">4,500</p>
+</div>
+<div class="product-card">
+<img src="D:\Projects\ecommerce\E-Commerce-website\images\Ethnic gown.jpeg" alt="product 2">
+<p class="product-name">
+<a href="#">Ethnic gown</a>
+</p>
+<p class="product-price">3,500</p>
+</div>
+<div class="product-card">
+    <img src="D:\Projects\ecommerce\E-Commerce-website\images\anarkali.jpeg" 
+    alt="product 2" style="height: 80%;">
+    <p class="product-name">
+    <a href="#">Anarkali gown</a>
+    </p>
+    <p class="product-price">2,500</p>
+    </div>
+</div>
+</section>
+<!-- third section -->
+<section id="Casual">
+<h1 style="text-align: center;">Casual Wear</h1>
+<div class="second-section">  
+<div class="product-card">
+<img src="D:\Projects\ecommerce\E-Commerce-website\images\croptop.jpeg" alt="product 
+1" style="height: 82%;">
+<p class="product-name">
+<a href="#">Crop Top</a>
+</p>
+<p class="product-price">500</p>
+</div>
+<div class="product-card">
+<img src="D:\Projects\ecommerce\E-Commerce-website\images\jeans.jpeg" alt="product 2" style="height: 82%;">
+<p class="product-name">
+<a href="#">Jeans</a>
+</p>
+<p class="product-price">1,500</p>
+</div>
+<div class="product-card">
+    <img src="D:\Projects\ecommerce\E-Commerce-website\images\trouser.jpeg" 
+    alt="product 2" style="height: 82%;">
+    <p class="product-name">
+    <a href="#">Trouser</a>
+    </p>
+    <p class="product-price">999</p>
+    </div>
+</div>
+</section>
+<!-- Fourth section -->
+<section id="Footwear">
+<h1 style="text-align: center;">Foot Wear</h1>
+<div class="second-section">  
+<div class="product-card">
+<img src="D:\Projects\ecommerce\E-Commerce-website\images\hills.jpeg" 
+alt="product 1" style="height: 70%;">
+<p class="product-name">
+<a href="#">Hills</a>
+</p>
+<p class="product-price">500</p>
+</div>
+<div class="product-card">
+<img src="D:\Projects\ecommerce\E-Commerce-website\images\juti.jpeg" 
+alt="product 2" style="height: 43%;">
+<p class="product-name">
+<a href="#">Juti</a>
+</p>
+<p class="product-price">400</p>
+</div>
+<div class="product-card">
+    <img src="D:\Projects\ecommerce\E-Commerce-website\images\flats.jpeg" 
+    alt="product 2" style="height: 50%;">
+    <p class="product-name">
+    <a href="#">Flats</a>
+    </p>
+    <p class="product-price">300</p>
+    </div>
+</div>
+</section>
+<!-- Fifth section -->
+<section id="electronics">
+<h1 style="text-align: center;"> Electronics Prouduct</h1>
+<div class="second-section">  
+<div class="product-card">
+<img src="D:\Projects\ecommerce\E-Commerce-website\images\washingmachine.jpeg" 
+alt="product 1" style="height: 60%;">
+<p class="product-name">
+<a href="#">Washing Machine</a>
+</p>
+<p class="product-price">12,000</p>
+</div>
+<div class="product-card">
+<img src="D:\Projects\ecommerce\E-Commerce-website\images\fridge.jpeg" 
+alt="product 2" style="height: 65%;">
+<p class="product-name">
+<a href="#">Fridge</a>
+</p>
+<p class="product-price">25,000</p>
+</div>
+<div class="product-card">
+    <img src="D:\Projects\ecommerce\E-Commerce-website\images\oven.jpeg" 
+    alt="product 2" style="height: 60%;">
+    <p class="product-name">
+    <a href="#">Oven</a>
+    </p>
+    <p class="product-price">5,000</p>
+    </div>
+</div>
+</section>
+<!-- Sixth Section -->
+<div class="third-section">
+    <div class="newsletter-row">
+    <div class="newsletter-column">
+    <h2>Newsletter</h2>
+    <p>Your newsletter paragraph goes here.</p>
+    </div>
+    <div class="search-column">
+    <input type="text" placeholder="enter your email">
+    <button class="button">Subscribe</button>
+    </div>
+    
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
